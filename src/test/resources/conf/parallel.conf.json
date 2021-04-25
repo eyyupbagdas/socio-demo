@@ -1,0 +1,25 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "alihanozbayrak1",
+  "key": "yYzukxkJ3sAqxT1pyW7B",
+  "capabilities": {
+    "build": "browserstack-build-1",
+    "name": "parallel_test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "env1": {
+      "browser": "chrome",
+      "browser_version": "latest",
+      "os": "Windows",
+      "os_version": "8"
+    },
+    "env2": {
+      "browser": "firefox",
+      "browser_version": "latest",
+      "os": "Windows",
+      "os_version": "8"
+    }
+  }
+}

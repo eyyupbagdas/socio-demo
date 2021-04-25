@@ -1,0 +1,37 @@
+2021-04-25 14:53:30 INFO  Logger:48 - INFO => Open url || Url =>https://staging.platform.socio.events/signup || Class : controller.ActionController
+2021-04-25 14:53:31 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@data-testid="linkLogin"] || Class : controller.ActionController
+2021-04-25 14:53:32 INFO  Logger:48 - INFO => Sending key to element || Key =>testautomation@socio.events || Class : controller.ActionController
+2021-04-25 14:53:32 INFO  Logger:48 - INFO => Sending key to element || Key =>ta12345 || Class : controller.ActionController
+2021-04-25 14:53:33 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@data-testid="btnLogin"] || Class : controller.ActionController
+2021-04-25 14:53:33 INFO  Logger:48 - INFO => Getting text of element || Locator =>By.xpath: //*[@data-testid="titleDashead"] || Class : controller.ActionController
+2021-04-25 14:53:37 INFO  Logger:48 - INFO => Text of element || Text =>My Events || Class : controller.ActionController
+2021-04-25 14:53:38 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@data-testid="colEvent"] //h3 || Class : controller.ActionController
+2021-04-25 14:53:40 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@id="rs-wrapper"]/aside //*[contains(text(),'Web App')] || Class : controller.ActionController
+2021-04-25 14:53:40 INFO  Logger:48 - INFO => Getting text of element || Locator =>By.xpath: //*[contains(@class,'bootstrap-switch wrapper')] || Class : controller.ActionController
+2021-04-25 14:53:41 INFO  Logger:48 - INFO => Text of element || Text =>bootstrap-switch wrapper bootstrap-switch-on || Class : controller.ActionController
+2021-04-25 14:53:41 INFO  Logger:48 - INFO => Getting text of element || Locator =>By.xpath: //*[contains(@class,'radio-custom')] //*[contains(text(),'Log In')] /parent::label || Class : controller.ActionController
+2021-04-25 14:53:49 INFO  Logger:48 - INFO => Text of element || Text =>radio-custom radio-info radio-inline || Class : controller.ActionController
+2021-04-25 14:53:49 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@class="btn btn-success"] || Class : controller.ActionController
+2021-04-25 14:53:50 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[contains(text(),'Get Shareable Link')] || Class : controller.ActionController
+2021-04-25 14:53:51 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@class="modal-content"]//*[contains(text(),'Copy Link')] || Class : controller.ActionController
+2021-04-25 14:53:51 INFO  Logger:48 - INFO => Getting text of element || Locator =>By.xpath: //*[@class="modal-content"]//input || Class : controller.ActionController
+2021-04-25 14:53:51 INFO  Logger:48 - INFO => Text of element || Text =>https://staging.app.socio.events/MjQ0Mjc%3D/overview || Class : controller.ActionController
+2021-04-25 14:53:51 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.className: close || Class : controller.ActionController
+2021-04-25 14:53:53 INFO  Logger:48 - INFO => Open url || Url =>https://staging.app.socio.events/MjQ0Mjc%3D/overview || Class : controller.OperationController
+2021-04-25 14:53:55 INFO  Logger:48 - INFO => Sending key to element || Key =>testautomation@socio.events || Class : controller.ActionController
+2021-04-25 14:53:56 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.id: continue-button || Class : controller.ActionController
+2021-04-25 14:53:57 INFO  Logger:48 - INFO => Sending key to element || Key =>ta12345 || Class : controller.ActionController
+2021-04-25 14:53:58 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.id: login-button || Class : controller.ActionController
+2021-04-25 14:54:03 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@data-testid="listItem"]//*[contains(text(),'Wall')] || Class : controller.ActionController
+2021-04-25 14:54:04 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[contains(text(),'your mind')] || Class : controller.ActionController
+2021-04-25 14:54:05 INFO  Logger:48 - INFO => Sending key to element || Key =>vnvEvEKfvD || Class : controller.ActionController
+2021-04-25 14:54:05 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@data-testid="upload_image"] || Class : controller.ActionController
+2021-04-25 14:54:06 INFO  Logger:48 - INFO => Sending key to element || Key =>/Users/tcebagdas/Documents/browserstack/socio-demo/image.png || Class : controller.ActionController
+2021-04-25 14:54:07 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@title="Save"] || Class : controller.ActionController
+2021-04-25 14:54:07 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@title="Upload"] || Class : controller.ActionController
+2021-04-25 14:54:07 INFO  Logger:48 - INFO => Waiting for the element || Locator =>By.xpath: //*[@alt="new_post"] || Class : controller.ActionController
+2021-04-25 14:54:10 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: (//*[contains(text(),'Send')])[2] || Class : controller.ActionController
+2021-04-25 14:54:13 INFO  Logger:48 - INFO => Switch to main window || Class : controller.OperationController
+2021-04-25 14:54:14 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@id="rs-wrapper"]/aside //*[contains(text(),'Edit')] || Class : controller.ActionController
+2021-04-25 14:54:15 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.id: Wall || Class : controller.ActionController
+2021-04-25 14:54:15 INFO  Logger:48 - INFO => Clicked on the element || Locator =>By.xpath: //*[@data-testid="buttonEditFeature"] || Class : controller.ActionController
