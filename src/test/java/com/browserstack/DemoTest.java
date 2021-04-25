@@ -13,7 +13,7 @@ import util.Constants;
 public class DemoTest extends BrowserStackTestNGTest {
 
   @Test
-  public void postWebAppWall() {
+  public void postToWebAppWall() {
     String socioMail = configuration.getSocioMail();
     String socioPass = configuration.getSocioPass();
 
