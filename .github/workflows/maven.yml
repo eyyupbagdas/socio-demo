@@ -35,9 +35,10 @@ jobs:
         java-version: 1.8
     - name: Test with Maven
       run: mvn test -P single
+      
     - name: Test Reporter
       uses: dorny/test-reporter@v1.4.3
       with:
         name: Run Tests
         path: "**/surefire-reports/TEST-*.xml"
-        reporter: java-testng
+        reporter: java-junit
