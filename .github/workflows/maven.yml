@@ -103,7 +103,7 @@ jobs:
         conclusion: ${{ job.status }}
         action_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
         output: |
-          {"title":"Allure test report summary","summary":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}
+          {"title":"Allure test report summary","summary":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}/"}
         annotations: |
           [{"annotation_level":"notice","title":"Allure test report link","message":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}]
         actions: |
