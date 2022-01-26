@@ -1,0 +1,11 @@
+[ {
+  "uid" : "8d2faae9578f8a0c",
+  "name" : "postToWebAppWall",
+  "time" : {
+    "start" : 1643197294751,
+    "stop" : 1643197298824,
+    "duration" : 4073
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
