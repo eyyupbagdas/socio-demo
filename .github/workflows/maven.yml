@@ -105,3 +105,5 @@ jobs:
         details_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
         output: |
           {"summary":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}
+        annotations: |
+          [{"path":"README.md","annotation_level":"success","title":"Allure test report link","message":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}]
