@@ -29,7 +29,7 @@ public class DemoTest extends BrowserStackTestNGTest {
         .openEvent(Constants.MY_EVENT_NAME)
         .openEventWebAppTab()
         .enableWebApp()
-        .selectLogInPrivacySetting()
+//        .selectLogInPrivacySetting()
         .saveWebApp()
         .copyWebAppLink();
 
