@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "postToWebAppWall",
+    "uid" : "f785705c7d1556ff",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643195520532,
+      "stop" : 1643195527197,
+      "duration" : 6665
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "single.conf.json", "chrome" ]
+  } ],
+  "name" : "behaviors"
+}
