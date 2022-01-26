@@ -104,4 +104,4 @@ jobs:
         action_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
         details_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
         output: |
-          {"summary":"Test result"}
+          {"summary":https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}}
