@@ -24,10 +24,10 @@ public class DemoTest extends BrowserStackTestNGTest {
     HomePage homePage =
         loginPage.loginWithCredentials(socioMail, socioPass);
 
-    MyEventsPage myEventsPage = homePage.openMyEvents();
-    myEventsPage
-        .openEvent(Constants.MY_EVENT_NAME)
-        .openEventWebAppTab();
+//    MyEventsPage myEventsPage = homePage.openMyEvents();
+//    myEventsPage
+//        .openEvent(Constants.MY_EVENT_NAME)
+//        .openEventWebAppTab();
 //        .enableWebApp()
 //        .selectLogInPrivacySetting()
 //        .saveWebApp()
