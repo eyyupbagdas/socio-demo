@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://eyyupbagdas.github.io/socio-demo",
+  "buildOrder" : 34,
+  "buildName" : "GitHub Actions Run #1750683019",
+  "buildUrl" : "https://github.com/eyyupbagdas/socio-demo/actions/runs/1750683019",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/34/"
+} ]
