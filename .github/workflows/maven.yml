@@ -98,6 +98,6 @@ jobs:
       uses: LouisBrunner/checks-action@v1.1.1
       if: always()
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ env.GITHUB_TOKEN }}
         name: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
         conclusion: ${{ job.status }}
