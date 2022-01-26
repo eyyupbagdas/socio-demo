@@ -107,6 +107,6 @@ jobs:
         annotations: |
           [{"annotation_level":"success","title":"Allure test report link","message":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}]
         actions: |
-          [{"label":"Click Me","description":"Click me to get free RAM","identifier":"sent_to_webhook"}]
+          [{"label":"Click Me","description":"Click me to get free RAM","identifier":"sent_to_webhook","href":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}]
         images: |
           [{"alt":"Cool pic","image_url":"https://platform.socio.events/static/media/socio-logo-orange@1x.926e3cb3.png"}]
