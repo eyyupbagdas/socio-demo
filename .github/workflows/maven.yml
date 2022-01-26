@@ -103,9 +103,9 @@ jobs:
         conclusion: ${{ job.status }}
         action_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
         output: |
-          {"summary":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}
+          {"title":"Allure test report summary","summary":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}
         annotations: |
-          [{"annotation_level":"success","title":"Allure test report link","message":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}]
+          [{"annotation_level":"notice","title":"Allure test report link","message":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}]
         actions: |
           [{"label":"Click Me","description":"Click me to get free RAM","identifier":"sent_to_webhook","href":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}]
         images: |
