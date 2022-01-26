@@ -87,7 +87,7 @@ jobs:
         conclusion: ${{ job.status }}
         action_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
         annotations: |
-          [{"path":"README.md","annotation_level":"warning","title":"Spell Checker","message":"Check your spelling for 'banaas'.","raw_details":"Do you mean 'bananas' or 'banana'?","start_line":1,"end_line":2}]
+          [{"path":".github/workflows/maven.yml","annotation_level":"warning","title":"Spell Checker","message":"Check your spelling for 'banaas'.","raw_details":"Do you mean 'bananas' or 'banana'?","start_line":1,"end_line":2}]
         output: |
           {"title":"Allure test report summary","summary":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}/"}
 
