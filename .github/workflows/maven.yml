@@ -62,7 +62,7 @@ jobs:
          context: 'Test report'
          state: 'success'
          sha: ${{github.event.pull_request.head.sha || github.sha}}
-         target_url: https://SocioEvents.github.io/qa-platform-automation/${{ github.run_number }}
+         target_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
          
     - name: Send mail
       if: always()
@@ -75,7 +75,7 @@ jobs:
          subject: Github Actions job result
          to: eyyup@socio.events
          from: socioqateams@gmail.com
-         body: https://SocioEvents.github.io/qa-platform-automation/${{ github.run_number }}
+         body: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
           
     - name: Summary
       id: test
@@ -85,4 +85,4 @@ jobs:
         token: ${{ secrets.ALLURE_TOKEN }}
         name: Test XYZ
         conclusion: ${{ job.status }}
-        details_url: https://SocioEvents.github.io/qa-platform-automation/${{ github.run_number }}
+        details_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
