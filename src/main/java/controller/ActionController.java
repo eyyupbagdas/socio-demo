@@ -1,6 +1,8 @@
 package controller;
 
 import java.util.List;
+
+import io.qameta.allure.Step;
 import managers.DriverManager;
 import org.openqa.selenium.WebElement;
 import util.Constants;
@@ -22,6 +24,7 @@ public class ActionController extends ElementController{
    * Open given url
    * @param url
    */
+  @Step("Go to url")
   public void goToUrl(String url) {
     try {
       DriverManager.getDriver().get(url);
@@ -35,6 +38,7 @@ public class ActionController extends ElementController{
    * Clicks element
    * @param by target element locator
    */
+  @Step("Click element")
   public void clickElement(By by) {
     try {
       getElement(by).click();

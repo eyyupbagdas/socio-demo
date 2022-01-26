@@ -1,5 +1,6 @@
 package pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
 public class LoginPage extends BaseModel {
@@ -9,6 +10,7 @@ public class LoginPage extends BaseModel {
   private final By PASSWORD_INPUT_FIELD = By.xpath(getDataTestId("inputPassword"));
   private final By LOGIN_BUTTON = By.xpath(getDataTestId("btnLogin"));
 
+  @Step("Login with credentials")
   public HomePage loginWithCredentials(String mail, String pass) {
     actions.clickElement(LOGIN_LINK_BUTTON);
     actions.setText(EMAIL_INPUT_FIELD, mail);
