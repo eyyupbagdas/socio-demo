@@ -78,12 +78,14 @@ jobs:
          body: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
          
     - name: Obtain a GitHub App Installation Access Token
+      if: always()
       id: githubAppAuth
       run: |
           TOKEN="$(npx obtain-github-app-installation-access-token ci ${{ secrets.GH_APP_CREDENTIALS_TOKEN }})"
           echo "::add-mask::$TOKEN"
           echo "::set-output name=token::$TOKEN"
     - name: Use the obtained token
+      if: always()
       run: |
           curl -X POST -H 'Content-Type: application/json' \
             -d '{"context":"test","state":"success"}' \
