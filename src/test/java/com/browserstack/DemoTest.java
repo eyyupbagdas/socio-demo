@@ -25,13 +25,13 @@ public class DemoTest extends BrowserStackTestNGTest {
         loginPage.loginWithCredentials(socioMail, socioPass);
 
     MyEventsPage myEventsPage = homePage.openMyEvents();
-    String webAppLink = myEventsPage
+    myEventsPage
         .openEvent(Constants.MY_EVENT_NAME)
-        .openEventWebAppTab()
+        .openEventWebAppTab();
 //        .enableWebApp()
 //        .selectLogInPrivacySetting()
-        .saveWebApp()
-        .copyWebAppLink();
+//        .saveWebApp()
+//        .copyWebAppLink();
 
 //    OperationController operationController = new OperationController();
 //    operationController.openNewWindow(webAppLink);
