@@ -99,5 +99,7 @@ jobs:
       if: always()
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        name: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
+        name: Test Result
         conclusion: ${{ job.status }}
+        action_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
+        details_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
