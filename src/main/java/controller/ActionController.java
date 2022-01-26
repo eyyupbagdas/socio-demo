@@ -52,6 +52,7 @@ public class ActionController extends ElementController{
    * Wait until element appear
    * @param by target element locator
    */
+  @Step("Wait element appear")
   public void waitElementAppear(By by) {
     Logger.log(Constants.WAIT_ELEMENT + by, Logger.LogType.INFO, getClassName());
     getElement(by);
@@ -80,6 +81,7 @@ public class ActionController extends ElementController{
    * @param by   target element locator
    * @param data given text
    */
+  @Step("Fill input field")
   public void setText(By by, String data) {
     try {
       getElement(by).sendKeys(data);
@@ -125,6 +127,7 @@ public class ActionController extends ElementController{
    * @param attribute given attribute of element
    * @return given attribute value of element
    */
+  @Step("Get attribute value")
   public String getAttributeValue(By by, String attribute) {
     try {
       Logger.log(Constants.GET_TEXT_OF_ELEMENT + by, Logger.LogType.INFO, getClassName());

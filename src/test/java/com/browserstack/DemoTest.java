@@ -33,19 +33,19 @@ public class DemoTest extends BrowserStackTestNGTest {
         .saveWebApp()
         .copyWebAppLink();
 
-    OperationController operationController = new OperationController();
-    operationController.openNewWindow(webAppLink);
-
-    WebAppPage webAppPage = new WebAppPage();
-    String postMessage = RandomStringUtils.randomAlphabetic(10);
-    webAppPage
-        .loginToWebApp(socioMail, socioPass)
-        .openWall()
-        .sendToWall(postMessage, Constants.IMAGE_PATH);
-
-    operationController.switchToMainWindow();
-
-    myEventsPage.openEditEventTab().openEditWall();
-    myEventsPage.assertions().checkPostIsListed(postMessage);
+//    OperationController operationController = new OperationController();
+//    operationController.openNewWindow(webAppLink);
+//
+//    WebAppPage webAppPage = new WebAppPage();
+//    String postMessage = RandomStringUtils.randomAlphabetic(10);
+//    webAppPage
+//        .loginToWebApp(socioMail, socioPass)
+//        .openWall()
+//        .sendToWall(postMessage, Constants.IMAGE_PATH);
+//
+//    operationController.switchToMainWindow();
+//
+//    myEventsPage.openEditEventTab().openEditWall();
+//    myEventsPage.assertions().checkPostIsListed(postMessage);
   }
 }

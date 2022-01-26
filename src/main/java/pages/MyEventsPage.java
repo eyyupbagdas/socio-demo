@@ -1,5 +1,6 @@
 package pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import util.Constants;
 
@@ -29,11 +30,13 @@ public class MyEventsPage extends BaseModel {
   private final By WALL = By.id("Wall");
   private final By EDIT_WALL = By.xpath(getDataTestId("buttonEditFeature"));
 
+  @Step("Open event")
   public MyEventsPage openEvent(String eventName) {
     actions.clickListElementWithText(EVENT_NAMES, eventName);
     return this;
   }
 
+  @Step("Open event web app tab")
   public MyEventsPage openEventWebAppTab() {
     actions.waitForPageLoaded();
     actions.clickElement(EVENT_WEB_APP_TAB);
@@ -51,6 +54,7 @@ public class MyEventsPage extends BaseModel {
     return this;
   }
 
+  @Step("Enable web app")
   public MyEventsPage enableWebApp() {
     if (actions.getAttributeValue(ENABLE_WEB_APP_TOGGLE, Constants.CLASS)
         .contains("bootstrap-switch-off")) {
@@ -59,6 +63,7 @@ public class MyEventsPage extends BaseModel {
     return this;
   }
 
+  @Step("Select privacy setting")
   public MyEventsPage selectLogInPrivacySetting() {
     if (!actions.getAttributeValue(PRIVACY_SETTINGS_LOGIN, Constants.CLASS)
         .contains("radio-info")) {
@@ -67,6 +72,7 @@ public class MyEventsPage extends BaseModel {
     return this;
   }
 
+  @Step("Save web app")
   public MyEventsPage saveWebApp() {
     actions.clickElement(WEB_APP_SAVE_BUTTON);
     return this;
