@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.browserstack.DemoTest",
+    "children" : [ {
+      "name" : "tearDown",
+      "uid" : "46dbeb985ca6d22",
+      "parentUid" : "020bcd4b72a73c312ee61d4e53022a8e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1643209540118,
+        "stop" : 1643209540118,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "single.conf.json", "chrome" ]
+    }, {
+      "name" : "postToWebAppWall",
+      "uid" : "257c2a019779d924",
+      "parentUid" : "020bcd4b72a73c312ee61d4e53022a8e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643211973434,
+        "stop" : 1643212014937,
+        "duration" : 41503
+      },
+      "flaky" : true,
+      "newFailed" : true,
+      "parameters" : [ "single.conf.json", "chrome" ]
+    } ],
+    "uid" : "com.browserstack.DemoTest"
+  } ],
+  "name" : "packages"
+}
