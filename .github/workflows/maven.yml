@@ -83,6 +83,5 @@ jobs:
       if: always()
       with:
         token: ${{ secrets.ALLURE_TOKEN }}
-        name: Test XYZ
+        name: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
         conclusion: ${{ job.status }}
-        details_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
