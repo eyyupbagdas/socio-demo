@@ -28,7 +28,7 @@ public class DemoTest extends BrowserStackTestNGTest {
     String webAppLink = myEventsPage
         .openEvent(Constants.MY_EVENT_NAME)
         .openEventWebAppTab()
-        .enableWebApp()
+//        .enableWebApp()
 //        .selectLogInPrivacySetting()
         .saveWebApp()
         .copyWebAppLink();
