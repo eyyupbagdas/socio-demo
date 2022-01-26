@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "tearDown",
+    "uid" : "2d966eb2fea79784",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1643209540118,
+      "stop" : 1643209540118,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "single.conf.json", "chrome" ]
+  }, {
+    "name" : "postToWebAppWall",
+    "uid" : "78f9b4fa014fcd39",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643211120304,
+      "stop" : 1643211129966,
+      "duration" : 9662
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "single.conf.json", "chrome" ]
+  } ],
+  "name" : "behaviors"
+}
