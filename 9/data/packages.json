@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.browserstack.DemoTest",
+    "children" : [ {
+      "name" : "postToWebAppWall",
+      "uid" : "c729aa1e99feedb1",
+      "parentUid" : "020bcd4b72a73c312ee61d4e53022a8e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643186899696,
+        "stop" : 1643186950402,
+        "duration" : 50706
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "single.conf.json", "chrome" ]
+    } ],
+    "uid" : "com.browserstack.DemoTest"
+  } ],
+  "name" : "packages"
+}
