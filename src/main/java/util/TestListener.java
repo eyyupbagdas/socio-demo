@@ -36,7 +36,7 @@ public class TestListener implements ITestListener {
     public void onTestFailure(ITestResult iTestResult) {
 
         logger.log(Level.ERROR,  "{} is finished.{} Test result is FAILURE{}", getTestMethodName(iTestResult), ANSI_RED, ANSI_RESET);
-//        saveScreenshot(DriverManager.getDriver());
+        saveScreenshot(DriverManager.getDriver());
     }
 
     @Override
@@ -45,11 +45,11 @@ public class TestListener implements ITestListener {
         logger.log(Level.WARN, "{} is finished.{} Test result is SKIPPED{}", getTestMethodName(iTestResult), ANSI_YELLOW, ANSI_RESET);
     }
 
-//    @Attachment(value = "Page Screenshot", type = "image/png")
-//    public byte[] saveScreenshot(WebDriver driver) {
-//
-//        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-//    }
+    @Attachment(value = "Page Screenshot", type = "image/png")
+    public byte[] saveScreenshot(WebDriver driver) {
+
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    }
 
     @Override
     public void onTestFailedButWithinSuccessPercentage(ITestResult iTestResult) {

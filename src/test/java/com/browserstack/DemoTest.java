@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import util.Constants;
 import util.TestListener;
 
-//@Listeners({TestListener.class})
+@Listeners({TestListener.class})
 public class DemoTest extends BrowserStackTestNGTest {
 
   @Test
