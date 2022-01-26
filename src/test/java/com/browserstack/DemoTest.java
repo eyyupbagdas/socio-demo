@@ -1,6 +1,7 @@
 package com.browserstack;
 
 import controller.OperationController;
+import org.testng.annotations.Listeners;
 import pages.BrowserPage;
 import pages.HomePage;
 import pages.LoginPage;
@@ -9,7 +10,9 @@ import pages.WebAppPage;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.annotations.Test;
 import util.Constants;
+import util.TestListener;
 
+@Listeners({TestListener.class})
 public class DemoTest extends BrowserStackTestNGTest {
 
   @Test
