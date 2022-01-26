@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Could not click on the element || Locator =>By.xpath: //*[@data-testid=\"colEvent\"] //h3Error : org.openqa.selenium.StaleElementReferenceException: stale element reference (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az127-636', ip: '10.1.1.104', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.13'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/3y/zz_w6_s56sl...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55439}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 84.0.4147.89, webStorageEnabled: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: c5f440b0a8cf22e581746e52fef...}\nSession ID: c5f440b0a8cf22e581746e52fef5becaf7423e41",
+      "children" : [ {
+        "name" : "postToWebAppWall",
+        "uid" : "5b9c6ce0512da6e5",
+        "parentUid" : "761cfe1d34f33d4c8860dc73dc10bbea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643191234506,
+          "stop" : 1643191240281,
+          "duration" : 5775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "single.conf.json", "chrome" ]
+      } ],
+      "uid" : "761cfe1d34f33d4c8860dc73dc10bbea"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
