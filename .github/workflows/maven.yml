@@ -102,7 +102,6 @@ jobs:
         name: Test Result
         conclusion: ${{ job.status }}
         action_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
-        details_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
         output: |
           {"summary":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}"}
         annotations: |
