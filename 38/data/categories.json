@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not initialize class org.codehaus.groovy.reflection.ReflectionCache",
+      "children" : [ {
+        "name" : "tearDown",
+        "uid" : "43418d1d00d08bd",
+        "parentUid" : "02aa1a3420e589f4c6c9e417fe1bf24e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643209540118,
+          "stop" : 1643209540118,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "single.conf.json", "chrome" ]
+      } ],
+      "uid" : "02aa1a3420e589f4c6c9e417fe1bf24e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
