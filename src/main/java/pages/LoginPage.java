@@ -8,7 +8,7 @@ public class LoginPage extends BaseModel {
   private final By LOGIN_LINK_BUTTON = By.xpath(getDataTestId("linkLogin"));
   private final By EMAIL_INPUT_FIELD = By.xpath(getDataTestId("inputEmail"));
   private final By PASSWORD_INPUT_FIELD = By.xpath(getDataTestId("inputPassword"));
-  private final By LOGIN_BUTTON = By.xpath(getDataTestId("btnLoginaa"));
+  private final By LOGIN_BUTTON = By.xpath(getDataTestId("btnLogin"));
 
   @Step("Login with credentials")
   public HomePage loginWithCredentials(String mail, String pass) {
