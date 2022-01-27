@@ -1,6 +1,7 @@
 package com.browserstack;
 
 import controller.OperationController;
+import io.qameta.allure.Link;
 import org.testng.annotations.Listeners;
 import pages.BrowserPage;
 import pages.HomePage;
@@ -15,6 +16,7 @@ import util.TestListener;
 @Listeners({TestListener.class})
 public class DemoTest extends BrowserStackTestNGTest {
 
+  @Link(name = "300", type = "testrail")
   @Test
   public void postToWebAppWall() {
     String socioMail = configuration.getSocioMail();
