@@ -5,8 +5,7 @@ name: Cron job
 
 on:
   schedule:
-    # Runs "at minute 55 past every hour" (see https://crontab.guru)
-    - cron: '30 * * * *'
+    - cron: '0 */6 * * *'
 
 jobs:
   build:
