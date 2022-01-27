@@ -1,5 +1,8 @@
 package util;
 
+import controller.ServiceController;
+import io.qameta.allure.Allure;
+import io.qameta.allure.AllureLifecycle;
 import io.qameta.allure.Attachment;
 import managers.DriverManager;
 import org.apache.logging.log4j.Level;
@@ -30,6 +33,7 @@ public class TestListener implements ITestListener {
     public void onTestSuccess(ITestResult iTestResult) {
 
         logger.log(Level.INFO, "{} is finished.{} Test result is SUCCESS{}", getTestMethodName(iTestResult), ANSI_GREEN, ANSI_RESET);
+
     }
 
     @Override
@@ -37,6 +41,14 @@ public class TestListener implements ITestListener {
 
         logger.log(Level.ERROR,  "{} is finished.{} Test result is FAILURE{}", getTestMethodName(iTestResult), ANSI_RED, ANSI_RESET);
         saveScreenshot(DriverManager.getDriver());
+        Allure.descriptionHtml("<!DOCTYPE html>" +
+                "<html>" +
+                "<body>" +
+                "<video width='400' controls>" +
+                "<source src='"+new ServiceController().getVideoUrl(DriverManager.getSessionId())+"' type='video/mp4'>" +
+                "</video>" +
+                "</body>" +
+                "</html>");
     }
 
     @Override

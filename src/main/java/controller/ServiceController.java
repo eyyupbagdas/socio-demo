@@ -40,4 +40,16 @@ public class ServiceController {
       );
     }
   }
+
+  public String getVideoUrl(String sessionId) {
+
+    Response response = RestAssured.given()
+        .auth()
+        .basic(configuration.getUsername(), configuration.getPassword())
+        .contentType("application/json")
+        .when()
+        .get(Constants.API_URL + Constants.SESSIONS_PATH + sessionId + ".json");
+
+      return response.jsonPath().get("automation_session.video_url").toString();
+  }
 }

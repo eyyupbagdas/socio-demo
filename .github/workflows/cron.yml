@@ -4,12 +4,9 @@
 name: Java CI with Maven
 
 on:
-   push:
-     branches: [ runtest-yaml ]
-   pull_request:
-     branches: [ runtest-yaml ]
-     
-   workflow_dispatch:
+  schedule:
+    # Runs "at minute 55 past every hour" (see https://crontab.guru)
+    - cron: '30 * * * *'
 
 jobs:
   build:
