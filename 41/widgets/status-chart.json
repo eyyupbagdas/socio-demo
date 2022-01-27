@@ -1,0 +1,21 @@
+[ {
+  "uid" : "6a6dd1b3c7ef8501",
+  "name" : "postToWebAppWall",
+  "time" : {
+    "start" : 1643294030223,
+    "stop" : 1643294069066,
+    "duration" : 38843
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "da548f13c29a8252",
+  "name" : "tearDown",
+  "time" : {
+    "start" : 1643209540118,
+    "stop" : 1643209540118,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
