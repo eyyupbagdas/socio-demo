@@ -16,7 +16,7 @@ import util.TestListener;
 @Listeners({TestListener.class})
 public class DemoTest extends BrowserStackTestNGTest {
 
-  @Link(name = "3000", type = "testrail", value = "Testrail Link")
+  @Link(name = "Testrail Link", type = "testrail", value = "3000")
   @Test
   public void postToWebAppWall() {
     String socioMail = configuration.getSocioMail();
