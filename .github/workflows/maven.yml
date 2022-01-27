@@ -8,6 +8,9 @@ on:
      branches: [ runtest-yaml ]
    pull_request:
      branches: [ runtest-yaml ]
+   schedule:
+    # Runs "at minute 55 past every hour" (see https://crontab.guru)
+    - cron: '25 * * * *'
      
    workflow_dispatch:
 
