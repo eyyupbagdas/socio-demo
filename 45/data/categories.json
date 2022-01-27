@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not initialize class org.codehaus.groovy.reflection.ReflectionCache",
+      "children" : [ {
+        "name" : "tearDown",
+        "uid" : "148c5c550bf9c5f7",
+        "parentUid" : "02aa1a3420e589f4c6c9e417fe1bf24e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643209540118,
+          "stop" : 1643209540118,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "single.conf.json", "chrome" ]
+      } ],
+      "uid" : "02aa1a3420e589f4c6c9e417fe1bf24e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Could not find element || Element Locator =>By.xpath: //*[@data-testid=\"btnLoginaa\"] Error : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@data-testid=\"btnLoginaa\"] (tried for 30 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "postToWebAppWall",
+        "uid" : "e17c9b300d4751bb",
+        "parentUid" : "84b3c71d9243e5690f9d7c812e3d964e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643297098572,
+          "stop" : 1643297133059,
+          "duration" : 34487
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ "single.conf.json", "chrome" ]
+      } ],
+      "uid" : "84b3c71d9243e5690f9d7c812e3d964e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

@@ -1,0 +1,12 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jan 27 15:24:58 GMT 2022","Thu Jan 27 15:25:33 GMT 2022","34487","Single","SingleTest","com.browserstack.DemoTest","com.browserstack.DemoTest","postToWebAppWall","postToWebAppWall","<!DOCTYPE html> 
+<html> 
+<body> 
+
+<video width=""400"" controls>
+  <source src=""https://automate.browserstack.com/sessions/3d2cf22661d1883c374d7d3a6ab1545ab195d029/video?token=VTUraVlySkxOMlNVK2JGOGxKNlZ3REd0aEx5ZVlHN3dhaCthcFhLRlVkbVBROFY4ZzR0MEU0bnNoallWOUMwdTZOR3E2WWJja093WEJObFJWaWNYN1E9PS0teDhqNVRnc25sY3Z4eHUxWWpBbWNBZz09--945d64ebef5c4d1a7997404e4e462180dc76ed29&source=rest_api&diff=1342.738433125"" type=""video/mp4"">
+</video>
+
+</body> 
+</html>"
+"broken","Wed Jan 26 15:05:40 GMT 2022","Wed Jan 26 15:05:40 GMT 2022","0","Single","SingleTest","com.browserstack.DemoTest","com.browserstack.DemoTest","tearDown","tearDown",""
