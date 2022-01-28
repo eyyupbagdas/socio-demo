@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "postToWebAppWall",
+    "uid" : "a4760cb8983b503e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1643330909160,
+      "stop" : 1643330916511,
+      "duration" : 7351
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "single.conf.json", "chrome" ]
+  }, {
+    "name" : "test1",
+    "uid" : "3940b0b50c76b321",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1643330929643,
+      "stop" : 1643330970585,
+      "duration" : 40942
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "single.conf.json", "chrome" ]
+  } ],
+  "name" : "behaviors"
+}
