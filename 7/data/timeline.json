@@ -1,0 +1,103 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "Eyyups-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "73366@Eyyups-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "64404bd9331565a7",
+        "parentUid" : "63291d8f7fd4310a809e584a175c81cc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643307733113,
+          "stop" : 1643307773219,
+          "duration" : 40106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "single.conf.json", "chrome" ]
+      }, {
+        "name" : "postToWebAppWall",
+        "uid" : "4869b68b87c4291f",
+        "parentUid" : "63291d8f7fd4310a809e584a175c81cc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643307717703,
+          "stop" : 1643307721024,
+          "duration" : 3321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "single.conf.json", "chrome" ]
+      } ],
+      "uid" : "63291d8f7fd4310a809e584a175c81cc"
+    }, {
+      "name" : "73593@Eyyups-MacBook-Pro.local.main(1)",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "48766dca2ca333da",
+        "parentUid" : "46af9a81ce3063ed132f22eb176a6000",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643310060832,
+          "stop" : 1643310118527,
+          "duration" : 57695
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "single.conf.json", "chrome" ]
+      }, {
+        "name" : "postToWebAppWall",
+        "uid" : "d3c982b07d4be2a0",
+        "parentUid" : "46af9a81ce3063ed132f22eb176a6000",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643310041272,
+          "stop" : 1643310047242,
+          "duration" : 5970
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "single.conf.json", "chrome" ]
+      } ],
+      "uid" : "46af9a81ce3063ed132f22eb176a6000"
+    } ],
+    "uid" : "9b03e5654c81e79d384515a4d77cbdd3"
+  }, {
+    "name" : "fv-az131-552",
+    "children" : [ {
+      "name" : "2792@fv-az131-552.main(1)",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "27cf558618fbab90",
+        "parentUid" : "7d7d4cc97b0e0e523dfb5deaab64e813",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643436978463,
+          "stop" : 1643437014264,
+          "duration" : 35801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "single.conf.json", "chrome" ]
+      }, {
+        "name" : "postToWebAppWall",
+        "uid" : "54dd39db5c1f4966",
+        "parentUid" : "7d7d4cc97b0e0e523dfb5deaab64e813",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643436966097,
+          "stop" : 1643436970747,
+          "duration" : 4650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "single.conf.json", "chrome" ]
+      } ],
+      "uid" : "7d7d4cc97b0e0e523dfb5deaab64e813"
+    } ],
+    "uid" : "88bd0dd46580a637de922504c56126af"
+  } ],
+  "name" : "timeline"
+}
