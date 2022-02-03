@@ -1,0 +1,363 @@
+{
+  "uid" : "74b397c13153bb8e",
+  "name" : "postToWebAppWall",
+  "fullName" : "com.browserstack.DemoTest.postToWebAppWall",
+  "historyId" : "585f3c6dda4d5e35875f2d8e0e302456",
+  "time" : {
+    "start" : 1643891817970,
+    "stop" : 1643891823079,
+    "duration" : 5109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1643891807923,
+      "stop" : 1643891817804,
+      "duration" : 9881
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open url",
+      "time" : {
+        "start" : 1643891818049,
+        "stop" : 1643891823078,
+        "duration" : 5029
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Go to url",
+        "time" : {
+          "start" : 1643891818049,
+          "stop" : 1643891823078,
+          "duration" : 5029
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://staging.platform.socio.events/signup"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://staging.platform.socio.events/signup"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1643891823096,
+      "stop" : 1643891826940,
+      "duration" : 3844
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.browserstack.DemoTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.browserstack.DemoTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "postToWebAppWall"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Single"
+  }, {
+    "name" : "suite",
+    "value" : "SingleTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.browserstack.DemoTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-523"
+  }, {
+    "name" : "thread",
+    "value" : "2761@fv-az82-523.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "config",
+    "value" : "single.conf.json"
+  }, {
+    "name" : "environment",
+    "value" : "chrome"
+  } ],
+  "links" : [ {
+    "name" : "3000",
+    "url" : "https://sociohq.testrail.io/index.php?/cases/view/3000",
+    "type" : "testrail"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7a6ec59eaf3ef406",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643310041272,
+        "stop" : 1643310047242,
+        "duration" : 5970
+      }
+    }, {
+      "uid" : "d8d7714de302844a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643307717703,
+        "stop" : 1643307721024,
+        "duration" : 3321
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 16,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 38,
+        "unknown" : 0,
+        "total" : 54
+      },
+      "items" : [ {
+        "uid" : "b899646429cafc3d",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/51//#testresult/b899646429cafc3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643890878224,
+          "stop" : 1643890880824,
+          "duration" : 2600
+        }
+      }, {
+        "uid" : "74866b6c0bd08323",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/50//#testresult/74866b6c0bd08323",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643890549102,
+          "stop" : 1643890557116,
+          "duration" : 8014
+        }
+      }, {
+        "uid" : "f584104239155158",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/49//#testresult/f584104239155158",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643889975669,
+          "stop" : 1643889982360,
+          "duration" : 6691
+        }
+      }, {
+        "uid" : "8f471a6e27466d18",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/48//#testresult/8f471a6e27466d18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643889735959,
+          "stop" : 1643889741032,
+          "duration" : 5073
+        }
+      }, {
+        "uid" : "79d07768b57d7646",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/47//#testresult/79d07768b57d7646",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643889569675,
+          "stop" : 1643889577394,
+          "duration" : 7719
+        }
+      }, {
+        "uid" : "aeeb1177b67b2455",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/9//#testresult/aeeb1177b67b2455",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643480369036,
+          "stop" : 1643480371683,
+          "duration" : 2647
+        }
+      }, {
+        "uid" : "45d21519ab0f9571",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/8//#testresult/45d21519ab0f9571",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643458828262,
+          "stop" : 1643458830971,
+          "duration" : 2709
+        }
+      }, {
+        "uid" : "54dd39db5c1f4966",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/7//#testresult/54dd39db5c1f4966",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643436966097,
+          "stop" : 1643436970747,
+          "duration" : 4650
+        }
+      }, {
+        "uid" : "4710747e2c7cb8db",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/6//#testresult/4710747e2c7cb8db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643417061969,
+          "stop" : 1643417068075,
+          "duration" : 6106
+        }
+      }, {
+        "uid" : "c920de57221de483",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/5//#testresult/c920de57221de483",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643393809158,
+          "stop" : 1643393812526,
+          "duration" : 3368
+        }
+      }, {
+        "uid" : "acd9feecfb97d35a",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/4//#testresult/acd9feecfb97d35a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643372529001,
+          "stop" : 1643372531808,
+          "duration" : 2807
+        }
+      }, {
+        "uid" : "279c53aa474fb49f",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/3//#testresult/279c53aa474fb49f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643350615479,
+          "stop" : 1643350620886,
+          "duration" : 5407
+        }
+      }, {
+        "uid" : "a4760cb8983b503e",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/2//#testresult/a4760cb8983b503e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643330909160,
+          "stop" : 1643330916511,
+          "duration" : 7351
+        }
+      }, {
+        "uid" : "947bb5c50e02e587",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/1//#testresult/947bb5c50e02e587",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643312291140,
+          "stop" : 1643312293827,
+          "duration" : 2687
+        }
+      }, {
+        "uid" : "a3cae5aeeacf8395",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/46//#testresult/a3cae5aeeacf8395",
+        "status" : "failed",
+        "statusDetails" : "Could not find element || Element Locator =>By.xpath: //*[@data-testid=\"btnLoginaa\"] Error : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@data-testid=\"btnLoginaa\"] (tried for 30 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1643299167696,
+          "stop" : 1643299210449,
+          "duration" : 42753
+        }
+      }, {
+        "uid" : "e17c9b300d4751bb",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/45//#testresult/e17c9b300d4751bb",
+        "status" : "failed",
+        "statusDetails" : "Could not find element || Element Locator =>By.xpath: //*[@data-testid=\"btnLoginaa\"] Error : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@data-testid=\"btnLoginaa\"] (tried for 30 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1643297098572,
+          "stop" : 1643297133059,
+          "duration" : 34487
+        }
+      }, {
+        "uid" : "49b76abe0eefb295",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/44//#testresult/49b76abe0eefb295",
+        "status" : "failed",
+        "statusDetails" : "Could not find element || Element Locator =>By.xpath: //*[@data-testid=\"btnLoginaa\"] Error : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@data-testid=\"btnLoginaa\"] (tried for 30 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1643294950124,
+          "stop" : 1643294989486,
+          "duration" : 39362
+        }
+      }, {
+        "uid" : "cc9bdaf219ff14f1",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/43//#testresult/cc9bdaf219ff14f1",
+        "status" : "failed",
+        "statusDetails" : "Could not find element || Element Locator =>By.xpath: //*[@data-testid=\"btnLoginaa\"] Error : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@data-testid=\"btnLoginaa\"] (tried for 30 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1643294684472,
+          "stop" : 1643294718810,
+          "duration" : 34338
+        }
+      }, {
+        "uid" : "e56dcdc8432b19dd",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/42//#testresult/e56dcdc8432b19dd",
+        "status" : "failed",
+        "statusDetails" : "Could not find element || Element Locator =>By.xpath: //*[@data-testid=\"btnLoginaa\"] Error : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@data-testid=\"btnLoginaa\"] (tried for 30 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1643294407232,
+          "stop" : 1643294453116,
+          "duration" : 45884
+        }
+      }, {
+        "uid" : "6a6dd1b3c7ef8501",
+        "reportUrl" : "https://eyyupbagdas.github.io/socio-demo/41//#testresult/6a6dd1b3c7ef8501",
+        "status" : "failed",
+        "statusDetails" : "Could not find element || Element Locator =>By.xpath: //*[@data-testid=\"btnLoginaa\"] Error : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@data-testid=\"btnLoginaa\"] (tried for 30 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1643294030223,
+          "stop" : 1643294069066,
+          "duration" : 38843
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "74b397c13153bb8e.json",
+  "parameterValues" : [ "single.conf.json", "chrome" ]
+}
