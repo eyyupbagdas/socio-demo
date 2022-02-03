@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Could not find element || Element Locator =>By.xpath: //*[@data-testid=\"btnLogina\"] Error : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@data-testid=\"btnLogina\"] (tried for 30 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "test1",
+        "uid" : "d77a7b77c6b7c0ad",
+        "parentUid" : "d855018546b29f1bcb4b5645782554d2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643893510301,
+          "stop" : 1643893549977,
+          "duration" : 39676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "single.conf.json", "chrome" ]
+      } ],
+      "uid" : "d855018546b29f1bcb4b5645782554d2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

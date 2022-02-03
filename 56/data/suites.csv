@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Feb 03 13:05:10 GMT 2022","Thu Feb 03 13:05:49 GMT 2022","39676","Single","SingleTest","com.browserstack.DemoTest","com.browserstack.DemoTest","test1","test1",""
+"passed","Thu Feb 03 13:04:52 GMT 2022","Thu Feb 03 13:04:57 GMT 2022","5709","Single","SingleTest","com.browserstack.DemoTest","com.browserstack.DemoTest","postToWebAppWall","postToWebAppWall",""
