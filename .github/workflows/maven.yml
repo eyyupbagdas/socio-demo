@@ -25,7 +25,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn test -P single
+      run: mvn test -P singlea
 
     - name: Get Allure history
       uses: actions/checkout@v2
@@ -101,4 +101,6 @@ jobs:
         channel-id: C031GKG8DU3
         # Message to post into Slack. Needed if using bot token
         slack-message: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
+      env:
+       SLACK_WEBHOOK_URL: https://hooks.slack.com/workflows/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
 
