@@ -1,0 +1,43 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Single",
+    "children" : [ {
+      "name" : "SingleTest",
+      "children" : [ {
+        "name" : "com.browserstack.DemoTest",
+        "children" : [ {
+          "name" : "postToWebAppWall",
+          "uid" : "74866b6c0bd08323",
+          "parentUid" : "593cd0256f05e4c663b83577976ce6cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1643890549102,
+            "stop" : 1643890557116,
+            "duration" : 8014
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "single.conf.json", "chrome" ]
+        }, {
+          "name" : "test1",
+          "uid" : "e8f1d286e108b6c9",
+          "parentUid" : "593cd0256f05e4c663b83577976ce6cf",
+          "status" : "failed",
+          "time" : {
+            "start" : 1643890569545,
+            "stop" : 1643890616726,
+            "duration" : 47181
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "single.conf.json", "chrome" ]
+        } ],
+        "uid" : "593cd0256f05e4c663b83577976ce6cf"
+      } ],
+      "uid" : "11475393a40d0cbc3fa3aa49b795c46b"
+    } ],
+    "uid" : "8414495ba784bcf26683747bfc7c1b53"
+  } ],
+  "name" : "suites"
+}
