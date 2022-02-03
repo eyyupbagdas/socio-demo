@@ -84,7 +84,7 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         name: Test Result
-        conclusion: ${{ job.status }}
+        conclusion: success
         action_url: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
         output: |
           {"title":"Allure test report summary","summary":"https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}/"}
