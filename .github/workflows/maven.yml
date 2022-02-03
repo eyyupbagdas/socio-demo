@@ -102,5 +102,5 @@ jobs:
         # Message to post into Slack. Needed if using bot token
         slack-message: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
       env:
-       SLACK_WEBHOOK_URL: https://hooks.slack.com/workflows/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
+       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_URL }}
 
