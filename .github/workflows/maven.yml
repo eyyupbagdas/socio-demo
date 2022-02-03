@@ -25,7 +25,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn test -P singlea
+      run: mvn test -P single
 
     - name: Get Allure history
       uses: actions/checkout@v2
