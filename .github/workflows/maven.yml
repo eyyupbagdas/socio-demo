@@ -99,7 +99,7 @@ jobs:
         slack-message: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}
         payload: |
          {
-            "text": "GitHub Action build result: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}/",
+            "text": "GitHub Action build result: https://eyyupbagdas.github.io/socio-demo/${{ github.run_number }}/"
          }
       env:
        SLACK_WEBHOOK_URL: ${{ secrets.SLACK_URL }}
