@@ -1,0 +1,148 @@
+{
+  "uid" : "e80b84e20249b51f",
+  "name" : "postToWebAppWall",
+  "fullName" : "com.browserstack.DemoTest.postToWebAppWall",
+  "historyId" : "585f3c6dda4d5e35875f2d8e0e302456",
+  "time" : {
+    "start" : 1643310041272,
+    "stop" : 1643310047242,
+    "duration" : 5970
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1643310028260,
+      "stop" : 1643310041180,
+      "duration" : 12920
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Open url",
+      "time" : {
+        "start" : 1643310041304,
+        "stop" : 1643310047241,
+        "duration" : 5937
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Go to url",
+        "time" : {
+          "start" : 1643310041304,
+          "stop" : 1643310047241,
+          "duration" : 5937
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://staging.platform.socio.events/signup"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "url",
+        "value" : "https://staging.platform.socio.events/signup"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1643310047250,
+      "stop" : 1643310052558,
+      "duration" : 5308
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.browserstack.DemoTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.browserstack.DemoTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "postToWebAppWall"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Single"
+  }, {
+    "name" : "suite",
+    "value" : "SingleTest"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.browserstack.DemoTest"
+  }, {
+    "name" : "host",
+    "value" : "Eyyups-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "73593@Eyyups-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "config",
+    "value" : "single.conf.json"
+  }, {
+    "name" : "environment",
+    "value" : "chrome"
+  } ],
+  "links" : [ {
+    "name" : "3000",
+    "url" : "https://sociohq.testrail.io/index.php?/cases/view/3000",
+    "type" : "testrail"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e80b84e20249b51f.json",
+  "parameterValues" : [ "single.conf.json", "chrome" ]
+}

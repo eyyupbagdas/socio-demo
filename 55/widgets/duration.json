@@ -1,0 +1,21 @@
+[ {
+  "uid" : "974aee87d567c58e",
+  "name" : "postToWebAppWall",
+  "time" : {
+    "start" : 1643892880519,
+    "stop" : 1643892884787,
+    "duration" : 4268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32d265d8aa911e8a",
+  "name" : "test1",
+  "time" : {
+    "start" : 1643892899383,
+    "stop" : 1643892942263,
+    "duration" : 42880
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
