@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "com.browserstack.DemoTest",
+    "children" : [ {
+      "name" : "postToWebAppWall",
+      "uid" : "2f44ba1ac9da2959",
+      "parentUid" : "020bcd4b72a73c312ee61d4e53022a8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643894808824,
+        "stop" : 1643894814249,
+        "duration" : 5425
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "single.conf.json", "chrome" ]
+    }, {
+      "name" : "test1",
+      "uid" : "a7aa22d08f821c48",
+      "parentUid" : "020bcd4b72a73c312ee61d4e53022a8e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1643894825091,
+        "stop" : 1643894866106,
+        "duration" : 41015
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "single.conf.json", "chrome" ]
+    } ],
+    "uid" : "com.browserstack.DemoTest"
+  } ],
+  "name" : "packages"
+}
